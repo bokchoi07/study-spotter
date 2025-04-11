@@ -9,6 +9,10 @@ import { GoogleMapsModule } from '@angular/google-maps';
 })
 
 export class SearchComponent {
-  center: google.maps.LatLngLiteral = { lat: 24.886, lng: -70.268 };
-  zoom = 4;
+  center: google.maps.LatLngLiteral = { lat: 32.9850, lng: -96.9124 };
+  zoom = 12;
+
+  onSearchClick() {
+    console.log('Search button clicked mf!');
+  }
 }
