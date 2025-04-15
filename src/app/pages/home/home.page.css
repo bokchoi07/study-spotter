@@ -56,7 +56,7 @@ header {
     z-index: 1; 
 }
   .typing-text {
-    font-size: 2em;
+    font-size: 3em;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid transparent;
@@ -148,56 +148,4 @@ header {
   border-radius: 50%;
   transform: rotate(42deg);
 
-}
-
-.wrap{
-  /* position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px; */
-  position: absolute;
-  top: 20px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0;
-}
-.steam-one{
-  animation: steam-one 4s ease-out infinite;
-}
-
-.steam-three{
-  animation: steam-one 4s ease-out 1s infinite;
-}
-@keyframes steam-one {
-  0%{
-    transform: translateY(0) translateX(0) scale(0.25);
-    opacity: 0.25;
-  }
-  100%{
-    transform: translateY(-200px) translateX(-20px) scale(1);
-    opacity: 0;
-  }
-  
-}
-
-.steam-two{
-  animation: steam-one 4s ease-out 0.5s infinite;
-}
-
-.steam-four{
-  animation: steam-one 4s ease-out 1.5s infinite;
-}
-
-@keyframes steam-one {
-  0%{
-    transform: translateY(0) translateX(0) scale(0.25);
-    opacity: 0.25;
-  }
-  100%{
-    transform: translateY(-200px) translateX(20px) scale(1);
-    opacity: 0;
-  }
 }
